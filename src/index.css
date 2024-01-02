@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Allerta+Stencil&family=Carattere&family=Creepster&family=Harmattan&family=Mali:ital,wght@0,700;1,600&family=Noto+Sans+Thai:wght@300&family=Nova+Mono&family=Passion+One:wght@400;700&family=Poppins:wght@400;500;600;700&family=Young+Serif&family=Zen+Dots&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
