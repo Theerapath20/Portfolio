@@ -25,7 +25,10 @@ function Header() {
 
 
   return (
-    <div className=" text-lg text-white h-dvh flex-row opacity-90  bg-left bg-[url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
+    <div
+      className=" text-lg text-white h-dvh flex-row opacity-90  bg-left bg-[url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] "
+      
+    >
       <div className="flex  justify-around">
         <div className="sm:w-4/12 pt-5 ml-6 ">
           <a
@@ -40,7 +43,7 @@ function Header() {
             {nav.map((item, i) => {
               return (
                 <a
-                  className="hover:underline hover:decoration-sky-400 hover:underline-offset-4 "
+                  className="hover:underline hover:decoration-sky-400 hover:underline-offset-4  "
                   key={i}
                   href={item.href}
                 >
@@ -52,7 +55,8 @@ function Header() {
         </div>
         <div className="sm:w-4/12 mt-5 pr-5 flex justify-end ">
           <a
-            className="border rounded-md sm:px-3 px-2 hover:opacity-70 block text-sm sm:text-md sm:pt-3 pt-2 hover:border-2 hover:border-sky-500  hover:font-bold "
+            className="border font-Allerta
+              rounded-md sm:px-3 px-2 hover:opacity-70 block text-sm sm:text-md sm:pt-3 pt-2 hover:border-2 hover:border-sky-500  hover:font-bold "
             href={web}
             download="Portfolio Theerapath"
             target="_blank"
@@ -96,7 +100,6 @@ function Header() {
           </a>
           <a href="" className="border rounded-full p-2 hover:bg-red-800">
             <CiMail />
-          
           </a>
         </div>
       </div>

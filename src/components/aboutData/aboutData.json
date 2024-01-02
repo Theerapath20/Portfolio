@@ -13,7 +13,9 @@
             "language1": "Thai" ,
             "language2": "English",
              "img": "https://f.ptcdn.info/445/063/000/pputftgocZD1R5ku7oZ-o.jpg",
-             "img2": "src/assets/cer.png"
+             "img2": "src/assets/cer.png",
+             "personality": [" Loyal", "Generous", "Diligent", "understanding", "flexible","patient"]
+                    
              }
          ]
     }

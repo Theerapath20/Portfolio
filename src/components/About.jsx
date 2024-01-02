@@ -25,15 +25,22 @@ function About() {
     <div
       className="flex flex-col lg:flex lg:flex-row  bg-black text-white opacity-90 relative "
       id="about"
+      data-aos="fade-left"
+      data-aos-duration="3000"
     >
       <div className="absolute bottom-8 right-0 font-Allerta   ">
-        <p className="sm:text-9xl hidden md:block -rotate-90  p-3 text-slate-300   ">ME</p>
+        <p className="sm:text-9xl hidden md:block -rotate-90  p-3 text-slate-300   ">
+          ME
+        </p>
       </div>
       <div className="lg:w-1/3  flex flex-col justify-center items-center  m-auto  ">
         <div className=" p-3 ">
           <div className="flex justify-center">
+            <div className=" md:absolute relative lg:border-8 lg:border-sky-400 lg:top-20 xl:bottom-20 lg:left-12 sm:rounded-xl  lg:h-[50%] xl:h-[70%] lg:w-1/4 ">
+              <p className="text-white"></p>
+            </div>
             <img
-              className=" sm:w-2/5 lg:w-3/4 lg:mt-5 shadow-xl shadow-sky-700 border-black rounded-lg"
+              className=" lg:absolute relative w-1/2  lg:w-1/4 lg:top-[12%]  lg:mt-5 shadow-md shadow-sky-400  border-black rounded-lg"
               src="src\assets\me.jpg"
             />
           </div>
@@ -49,30 +56,33 @@ function About() {
                   <p className="sm:text-md p-3 text-slate-500 ">{item.about}</p>
                 </div>
                 <div className="flex flex-col  p-6 space-y-6">
-                  <div className="flex sm:space-x-20 ">
+                  <div className="flex sm:space-x-20 text-sky-400 ">
                     <p>Name</p>
                     <p className="px-2 text-slate-500">{item.name}</p>
                   </div>
-                  <div className="flex sm:space-x-20  ">
+                  <div className="flex sm:space-x-20 text-sky-400  ">
                     <p>Age</p>
                     <p className="px-7 text-slate-500">{item.age}</p>
                   </div>
-                  <div className="flex space-x-20  ">
+                  <div className="flex space-x-20 text-sky-400  ">
                     <p>Address</p>
                     <p className="px-1 text-slate-500">{item.address}</p>
                   </div>
-                  <div className="flex space-x-8 ">
+                  <div className="flex space-x-8 text-sky-400 ">
                     <p>Phone Number</p>
                     <p className="text-slate-500">{item.phone}</p>
                   </div>
-                  <div className="flex space-x-8 ">
-                    <p className="">Personality</p>
+                  <div className="flex space-x-8 text-sky-400 ">
+                    <p className="">My motto</p>
                     <p className="px-9 text-slate-500">
-                      Loyal, Generous, Diligent, understanding, flexible,
-                      patient
+                      Today is hard, tomorrow will be worse but the day after
+                      tomorrow will be sunshine
+                      <p className="text-center">- Jack Ma -</p>
+                      {/* Loyal, Generous, Diligent, understanding, flexible,
+                      patient */}
                     </p>
                   </div>
-                  <div className="flex space-x-8 ">
+                  <div className="flex space-x-8 text-sky-400 ">
                     <p>Language</p>
                     <p className="px-9 text-slate-500">
                       {item.language1} (native)
@@ -84,6 +94,7 @@ function About() {
                       {item.language2} (Immediate)
                     </p>
                   </div>
+
                   <div className="flex ml-5 space-x-10  ">
                     <p className="text-black">Image</p>
                     <div className=" sm:flex sm:flex-row flex flex-col   ">
@@ -104,8 +115,6 @@ function About() {
             );
           })}
         </div>
-
-        
       </div>
     </div>
   );
