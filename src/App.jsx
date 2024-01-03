@@ -1,14 +1,17 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
 
 
 function App() {
   return (
     <>
       <Header />
-      <div className=" absolute w-1/2 bg-red-500 fill-neutral-600" />
       <About />
+      <Skill />
+      <Project />
     </>
   );
 }

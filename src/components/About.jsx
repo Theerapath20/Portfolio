@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import dataAbout from "./aboutData/aboutData.json"
 
-import Skill from './aboutData/Skill';
+import Skill from './Skill';
 
 
 
@@ -23,13 +23,13 @@ function About() {
        
   return (
     <div
-      className="flex flex-col lg:flex lg:flex-row  bg-black text-white opacity-90 relative "
+      className="flex flex-col lg:flex lg:flex-row  bg-black text-white  relative "
       id="about"
-      data-aos="fade-left"
-      data-aos-duration="3000"
+      // data-aos="fade-left"
+      // data-aos-duration="3000"
     >
       <div className="absolute bottom-8 right-0 font-Allerta   ">
-        <p className="sm:text-9xl hidden md:block -rotate-90  p-3 text-slate-300   ">
+        <p className="sm:text-9xl hidden md:block -rotate-90  p-3 text-white animate-pulse   ">
           ME
         </p>
       </div>
@@ -40,9 +40,10 @@ function About() {
               <p className="text-white"></p>
             </div>
             <img
-              className=" lg:absolute relative w-1/2  lg:w-1/4 lg:top-[12%]  lg:mt-5 shadow-md shadow-sky-400  border-black rounded-lg"
+              className=" lg:absolute relative w-1/2  lg:w-1/4 lg:top-[12%]   lg:mt-5 shadow-md shadow-sky-400  border-black rounded-lg"
               src="src\assets\me.jpg"
             />
+            {/* <div className=" absolute  bg-pink-500 blur-3xl  h-80 w-80 bottom-0  " /> */}
           </div>
         </div>
       </div>
@@ -53,7 +54,9 @@ function About() {
             return (
               <>
                 <div className="  ">
-                  <p className="sm:text-md p-3 text-slate-500 ">{item.about}</p>
+                  <p className="sm:text-md p-3 text-slate-500  ">
+                    {item.about}
+                  </p>
                 </div>
                 <div className="flex flex-col  p-6 space-y-6">
                   <div className="flex sm:space-x-20 text-sky-400 ">

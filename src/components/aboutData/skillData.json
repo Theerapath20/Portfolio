@@ -1,0 +1,63 @@
+
+
+
+[
+    {
+        "pic" : "public/img/html.png",
+        "name": "HTML",
+        "skill" : "★★★★☆"
+         
+    },
+    {
+        "pic" : "public/img/css.png",
+        "name": "CSS",
+        "skill" : "★★★★☆"
+        
+    },
+    {
+        "pic" : "public/img/js.png",
+        "name": "JavaScrip",
+        "skill" : "★★★☆☆"
+    },
+    {
+        "pic" : "public/img/react.png",
+        "name": "React",
+        "skill" : "★★★☆☆"
+    },
+    {
+        "pic" : "public/img/tailwind.png",
+        "name": "Tailwind",
+        "skill" : "★★★★☆"
+    },
+    {
+        "pic" : "public/img/bootstrap.png",
+        "name": "Bootstrap",
+        "skill" : "★★★★☆"
+    },
+    {
+        "pic" : "public/img/node.png",
+        "name": "Node",
+        "skill" : "★★☆☆☆"
+    },
+    {
+        "pic" : "public/img/mongoDB.png",
+        "name": "Mongo DB",
+        "skill" : "★★☆☆☆"
+    },
+    
+    {
+        "pic" : "public/img/git_logo.png",
+        "name": "Git Source Control",
+        "skill" : "★★★☆☆"
+    },
+    {
+        "pic" : "public/img/nextjs.png",
+        "name": "Next JS",
+        "skill" : "★★☆☆☆"
+    },
+    {
+        "pic" : "public/img/typeScrip.png",
+        "name": "TypeScrip",
+        "skill" : "★★☆☆☆"
+    }
+]
