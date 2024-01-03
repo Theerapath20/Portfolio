@@ -18,7 +18,7 @@ function Skill() {
         </div>
       </div>
       <div className="flex justify-center text-center  ">
-        <div className=" grid grid-cols-1 sm:grid-cols-4 gap-6 px-6 mt-5   w-2/3 ">
+        <div className=" grid grid-cols-1 sm:grid-cols-4 gap-6 px-6 my-5   w-2/3 ">
           {skillData.map((item, i) => {
             return (
               <div

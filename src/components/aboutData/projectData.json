@@ -1,0 +1,51 @@
+[
+    {   
+        "id": 1,
+        "vdo" :"/video/style-list.mp4",
+        "name": "Style-list Store ",
+        "view" : "Preview ",
+        "category": "Font end",
+         "to" : "#"
+    },
+    {
+        "id": 2,
+        "vdo" :"public/video/Rest and Rest.mp4",
+        "name": "Rest and Rest ",
+        "view" : "Preview ",
+        "category": "Font end",
+         "to" : "https://rest2.pages.dev/"
+    },
+    {
+        "id": 3,
+        "vdo" :"public/video/style-list.mp4",
+        "name": "XX ",
+        "view" : "Preview ",
+        "category": "Font end",
+         "to" : "#"
+    },
+    {
+        "id": 4,
+        "vdo" :"public/video/style-list.mp4",
+        "name": "XX",
+        "view" : "Preview ",
+        "category": "Font end",
+         "to" : "#"
+    },
+    {
+        "id": 5,
+        "vdo" :"/video/style-list.mp4",
+        "name": "XX ",
+        "view" : "Preview ",
+        "category": "Back end",
+         "to" : "#"
+    }, 
+    {
+        "id": 6,
+        "vdo" :"public/video/style-list.mp4",
+        "name": "XX",
+        "view" : "Preview ",
+        "category": "Back end",
+         "to" : "#"
+    } 
+
+]
