@@ -1,51 +1,51 @@
 [
     {   
-        "id": 1,
-        "vdo" :"/video/style-list.mp4",
+        "video" :"/video/style-list.mp4",
         "name": "Style-list Store ",
         "view" : "Preview ",
-        "category": "Font end",
+        "category": "Font",
          "to" : "#"
     },
     {
-        "id": 2,
-        "vdo" :"public/video/Rest and Rest.mp4",
+      
+        "video" :"/video/Rest and Rest.mp4",
         "name": "Rest and Rest ",
         "view" : "Preview ",
-        "category": "Font end",
+        "category": "Font",
          "to" : "https://rest2.pages.dev/"
     },
     {
-        "id": 3,
-        "vdo" :"public/video/style-list.mp4",
-        "name": "XX ",
+        
+        "video" :"",
+        "name": "AA",
         "view" : "Preview ",
-        "category": "Font end",
+        "category": "Font",
          "to" : "#"
     },
     {
-        "id": 4,
-        "vdo" :"public/video/style-list.mp4",
-        "name": "XX",
+        
+        "video" :"",
+        "name": "BB",
         "view" : "Preview ",
-        "category": "Font end",
+        "category": "Font",
          "to" : "#"
     },
     {
-        "id": 5,
-        "vdo" :"/video/style-list.mp4",
-        "name": "XX ",
+        
+        "video" :"/video/test.mp4",
+        "name": "CC",
         "view" : "Preview ",
-        "category": "Back end",
+        "category": "Back",
          "to" : "#"
-    }, 
+    },
+   
     {
-        "id": 6,
-        "vdo" :"public/video/style-list.mp4",
-        "name": "XX",
+        
+        "video" :"/video/test.mp4",
+        "name": "DD",
         "view" : "Preview ",
-        "category": "Back end",
+        "category": "Back",
          "to" : "#"
-    } 
-
+    }
+   
 ]

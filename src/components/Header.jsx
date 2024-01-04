@@ -19,7 +19,7 @@ function Header() {
     { name: "ME", href: "#about" },
     { name: "SKILL", href: "#skill" },
     { name: "PROJECT", href: "#project" },
-    { name: "CONTACT", href: "/" },
+    { name: "CONTACT", href: "#contact" },
   ];
 
  

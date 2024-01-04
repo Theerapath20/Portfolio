@@ -70,7 +70,6 @@ function Project() {
               <div>
                 <button
                   className="border-black rounded-xl   "
-                  
                   target="_blank"
                   key={i}
                 >
@@ -84,7 +83,7 @@ function Project() {
                   >
                     <source
                       className="border rounded-lg"
-                      src={item.vdo}
+                      src={item.video}
                       type="video/mp4"
                     />
                   </video>
