@@ -4,7 +4,7 @@ import { CiMail } from "react-icons/ci";
 
 function Contact() {
   return (
-    <section className="bg-black pt-5" id="contact">
+    <section className="bg-black py-8 " id="contact">
       <div className="  font-Allerta       ">
         <div className="sm:text-9xl  hidden md:block text-center   text-white animate-pulse ">
           CONTACT
@@ -25,12 +25,14 @@ function Contact() {
               <div className="flex flex-col  mt-5 sm:text-xl p-3 font-light font-mono ">
                 <div className="flex  space-x-3 mt-5  ">
                   <FaPhoneAlt className="bg-sky-500 border rounded-full h-fit w-fit p-3 mb-5 " />
-                  <span className="text-ms sm:text-lg mt-3 ">+66 99-647-4252</span>
+                  <span className="text-ms sm:text-lg mt-3 ">
+                    +66 99-647-4252
+                  </span>
                 </div>
                 <div className="sm:flex space-x-3  mt-5 hidden   ">
                   <CiMail className="bg-sky-500 border rounded-full w-fit h-fit  p-3 " />
                   <span className=" text-ms sm:text-lg mt-3   ">
-                    theerapathnpm555@gmail.com
+                    theerapath.dev@gmail.com
                   </span>
                 </div>
               </div>
@@ -66,6 +68,7 @@ function Contact() {
             </form>
           </div>
         </div>
+        
       </div>
     </section>
   );

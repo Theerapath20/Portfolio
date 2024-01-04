@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { FaFacebookF } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import { FaFacebookF } from "react-icons/fa";
 import {
   SlSocialInstagram,
   SlSocialLinkedin,
@@ -10,20 +10,7 @@ import { CiMail } from "react-icons/ci";
 import web from "../assets/web.pdf";
 
 
-function Header() {
-
-  const [mail, setMail] = useState("theerapathnpm555@gmail.com");
-
-  const nav = [
-    { name: "HOME", href: "/" },
-    { name: "ME", href: "#about" },
-    { name: "SKILL", href: "#skill" },
-    { name: "PROJECT", href: "#project" },
-    { name: "CONTACT", href: "#contact" },
-  ];
-
- 
-
+function Header({nav}) {
 
   return (
     <div className=" text-lg text-white h-dvh flex-row opacity-90  bg-left bg-[url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
@@ -32,6 +19,7 @@ function Header() {
           <a
             href="/"
             className=" font-carattere text-3xl sm:text-5xl text-sky-400"
+            id="home"
           >
             Theerapath
           </a>
@@ -56,7 +44,7 @@ function Header() {
             className=" font-Allerta 
               rounded-md sm:px-3 px-2 hover:opacity-70 block text-sm sm:text-md sm:pt-3 pt-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 border-2 hover:border-4 hover:border-sky-300  "
             href={web}
-            download="Portfolio Theerapath"
+            download="Theerapath's CV  "
             target="_blank"
           >
             DOWNLOAD CV
@@ -91,7 +79,10 @@ function Header() {
           >
             <SlSocialGithub />
           </a>
-          <a href="" className="border rounded-full p-2 hover:bg-slate-600">
+          <a
+            href="https://www.linkedin.com/in/theerapath-chaicharoen-2783342a8/"
+            className="border rounded-full p-2 hover:bg-slate-600"
+          >
             <SlSocialLinkedin />
           </a>
           <a
@@ -108,7 +99,10 @@ function Header() {
           >
             <SlSocialInstagram />
           </a>
-          <a href="" className="border rounded-full p-2 hover:bg-red-800">
+          <a
+            href="#contact"
+            className="border rounded-full p-2 hover:bg-red-800"
+          >
             <CiMail />
           </a>
         </div>
