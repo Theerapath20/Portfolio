@@ -1,8 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import emailjs from "@emailjs/browser";
+
 
 function Contact() {
+
+   const [name,setName] = useState('')
+   const [email,setEmail] = useState('')
+   const [message,setMessage] = useState('')
+
+   const handleSubmit = (e) =>{
+      e.preventDefault();
+
+      const serviceId = 'service_8074yea';
+      const templateId = 'template_mqngxnh';
+      const publicKey = 'dexJOZUrpxrx6RfyQ';
+
+      
+
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        to_name: "Theerapath",
+        message: message,
+      };
+
+      emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+          alert(
+            "Email sent successfully. Theerapath will reply to you soon.",
+            response
+          );
+          setName('');
+          setEmail('');
+          setMessage('');
+        })
+        .catch((error) => {
+          console.error('Error sending email:', error);
+        });
+   }
   return (
     <section className="bg-black py-8 " id="contact">
       <div className="  font-Allerta       ">
@@ -42,33 +79,41 @@ function Contact() {
             <p className="sm:text-2xl text-xl font-Allerta md:px-5  ">
               Send me a massage
             </p>
-            <form className="mt-3 p-3  flex flex-col space-y-5 r  ">
+            <form
+              className="mt-3 p-3  flex flex-col space-y-5 r  "
+              onSubmit={handleSubmit}
+            >
               <input
                 className="px-5 py-1 border rounded-lg opacity-75 md:w-4/5    text-black  "
                 type="text"
                 placeholder="Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
               <input
                 className="px-5 py-1 border rounded-lg opacity-75 md:w-4/5  text-black  "
                 type="email"
                 placeholder="Email Address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <textarea
                 className="px-5 py-2 border rounded-lg opacity-75 md:w-4/5  h-1/2  text-black   "
                 type="text"
-                placeholder="Your Massage"
+                placeholder="Your Message"
                 rows="10"
                 cols="60"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               />
               <input
                 className="border rounded-xl px-5 py-1 w-fit bg-sky-400 hover:opacity-80 font-bold font-Allerta   "
                 type="submit"
-                value="Send Massage"
+                value="Send Message"
               />
             </form>
           </div>
         </div>
-        
       </div>
     </section>
   );
