@@ -54,7 +54,7 @@ function Contact() {
               Get In Touch
             </h2>
             <div className=" sm:w-fit ">
-              <p className="md:text-lg sm:w-3/4 text-xs  ">
+              <p className="md:text-lg sm:w-3/4 text-ms  ">
                 I'm Very Happy If You're Interested In Me And Would Like To
                 Speak With Me. Feel Free To Call, Send Me An Email, Follow Me On
                 Social Media Or Simply Complete The Inquiry Form.

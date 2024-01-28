@@ -39,7 +39,7 @@ function Skill() {
                 {show ? (
                   <div className="border border-none rounded-xs bg-slate-700 px-3 text-white">
                     <div>
-                      <span>{item.skill}</span>
+                      <span className='text-xs lg:text-2xl'>{item.skill}</span>
                     </div>
                   </div>
                 ) : null}

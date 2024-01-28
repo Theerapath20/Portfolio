@@ -90,6 +90,7 @@ function Project() {
                 </button>
                 <div className="mt-3">
                   <p className="text-2xl font-Allerta">{item.name}</p>
+                  <p className="text-md font-Allerta opacity-55">{item.category}</p>
                   <a className="text-sm text-sky-400 font-semibold" href={item.to} target="_blank">{item.view}</a>
                 </div>
               </div>

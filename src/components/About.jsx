@@ -94,7 +94,7 @@ function About() {
                   <div className="flex space-x-8 ">
                     <p className="text-black">Language</p>
                     <p className="px-9 text-slate-500">
-                      {item.language2} (Immediate)
+                      {item.language2} (A2 Elementary of EF SET )
                     </p>
                   </div>
 
@@ -102,12 +102,12 @@ function About() {
                     <p className="text-black">Image</p>
                     <div className=" sm:flex sm:flex-row flex flex-col   ">
                       <img
-                        className="p-1 sm:w-1/3 hover:w-1/2 border-black rounded-lg "
+                        className="p-1 sm:w-1/4 hover:w-1/3 border-black rounded-lg "
                         src={item.img}
                         alt=""
                       />
                       <img
-                        className="sm:w-1/3 hover:w-1/2 p-1 border-black rounded-lg  "
+                        className="sm:w-1/2 hover:w-1/2 p-1 border-black rounded-lg  "
                         src={item.img2}
                         alt=""
                       />
