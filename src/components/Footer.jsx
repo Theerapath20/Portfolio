@@ -6,7 +6,7 @@ import {
   SlSocialGithub,
 } from "react-icons/sl";
 import { CiMail } from "react-icons/ci";
-import web from "../assets/web.pdf";
+import resume from "../assets/resume.pdf";
 
 function Footer({nav}) {
   return (
@@ -31,11 +31,11 @@ function Footer({nav}) {
           <a
             className=" font-Allerta text-white 
               rounded-md  p-2 hover:opacity-70 block text-sm sm:text-md sm:pt-2 pt-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 border-2 hover:border-4 hover:border-sky-300  "
-            href={web}
-            download="Theerapath's CV "
+            href={resume}
+            download="Theerapath's Resume "
             target="_blank"
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
           <span className="border-r hidden sm:block"></span>
         </div>
@@ -84,9 +84,8 @@ function Footer({nav}) {
         </a>
         <div className="border-r ml-5"></div>
         <div className="mt-1">
-          <p className="ml-5 text-white  "> Create By Theerapath</p>
+          <p className="ml-5 text-white  "> Created By Theerapath</p>
         </div>
-        
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ import {
   SlSocialGithub,
 } from "react-icons/sl";
 import { CiMail } from "react-icons/ci";
-import web from "../assets/web.pdf";
+import resume from "../assets/resume.pdf";
 
 
 function Header({nav}) {
@@ -43,11 +43,11 @@ function Header({nav}) {
           <a
             className=" font-Allerta 
               rounded-md sm:px-3 px-2 hover:opacity-70 block text-sm sm:text-md sm:pt-3 pt-2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 border-2 hover:border-4 hover:border-sky-300  "
-            href={web}
-            download="Theerapath's CV  "
+            href={resume}
+            download="Theerapath's Resume  "
             target="_blank"
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
         </div>
       </div>
