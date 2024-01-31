@@ -41,7 +41,7 @@ function About() {
             </div>
             <img
               className=" lg:absolute relative w-1/2  lg:w-1/4 lg:top-[12%]   lg:mt-5 shadow-md shadow-sky-400  border-black rounded-lg"
-              src="src\assets\me.jpg"
+              src="public/img/me.jpg"
             />
             {/* <div className=" absolute  bg-pink-500 blur-3xl  h-80 w-80 bottom-0  " /> */}
           </div>

@@ -12,8 +12,8 @@
             "mail":"theerapathnpm555@gmail.com",
             "language1": "Thai" ,
             "language2": "English",
-             "img": "src/assets/EF SET.png",
-             "img2": "src/assets/cer.png",
+             "img": "public/img/EF SET.png",
+             "img2": "public/img/cer.png",
              "personality": [" Loyal", "Generous", "Diligent", "understanding", "flexible","patient"]
                     
              }
